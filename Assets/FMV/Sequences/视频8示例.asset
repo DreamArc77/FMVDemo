@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b15758ac745424f96e89f7565e7928, type: 3}
+  m_Name: "\u89C6\u98918\u793A\u4F8B"
+  m_EditorClassIdentifier: 
+  source: {fileID: 32900000, guid: 453720e518109c1408f207a4fe750e23, type: 3}
+  introStart: 1
+  introEnd: 3
+  idleStart: 8.033333333333333
+  idleEnd: 10.033333333333333
+  outputFrameRate: 30
+  keepIntroAudio: 0
+  keepIdleAudio: 1
+  greenScreen: 1
+  threshold: 0.035
+  softness: 0.16
+  despill: 1
+  outputFolder: "Assets/FMV/Sequences/\u89C6\u98918\u793A\u4F8B_Media"
+  exportedSignature: 1250cff389005f585ea1e97e189c0fad|1|3|8.03333333|10.03333333|30|False|True
+  exportedAt: 2026-09-30 17:25:10
+  introClip: {fileID: 32900000, guid: 48a3fbdc8a49e9b40951681916051df8, type: 3}
+  idleClip: {fileID: 32900000, guid: 91dae93cfcd44a7479fa6a0b6d6c25bb, type: 3}
+  poster: {fileID: 2800000, guid: e88161914b5012d42b46d797a7512715, type: 3}

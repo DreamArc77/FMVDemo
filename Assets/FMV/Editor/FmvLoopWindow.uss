@@ -1,0 +1,19 @@
+.workspace { flex-grow: 1; }
+.workspace > .unity-scroll-view__content-viewport > .unity-scroll-view__content-container { padding: 16px; }
+#heading { font-size: 21px; -unity-font-style: bold; margin-bottom: 8px; }
+.section { font-size: 16px; -unity-font-style: bold; margin-top: 16px; margin-bottom: 10px; }
+.help { white-space: normal; margin-top: 8px; margin-bottom: 8px; flex-shrink: 0; }
+.columns { flex-direction: row; flex-wrap: wrap; }
+.preview-column { flex-grow: 1; flex-basis: 380px; margin-right: 16px; }
+.range-column { flex-grow: 1; flex-basis: 350px; }
+.preview { height: 260px; min-height: 260px; flex-shrink: 0; background-color: #171717; margin-bottom: 12px; }
+.row { flex-direction: row; flex-wrap: wrap; margin-top: 4px; margin-bottom: 4px; flex-shrink: 0; }
+.tool-button { min-height: 38px; min-width: 112px; flex-shrink: 0; padding: 7px 12px; margin: 4px; font-size: 14px; white-space: normal; }
+.row > .tool-button { flex-grow: 1; }
+.primary { min-height: 46px; -unity-font-style: bold; font-size: 15px; margin-top: 8px; }
+.time-field { flex-grow: 1; flex-basis: 215px; }
+.mark-button { min-width: 92px; }
+.unity-base-field { min-height: 30px; margin-top: 4px; margin-bottom: 6px; flex-shrink: 0; }
+.unity-base-field__label { min-width: 130px; }
+.status { white-space: normal; padding: 12px; background-color: #252525; color: #ededed; margin-top: 12px; flex-shrink: 0; }
+.progress { min-height: 22px; margin-top: 12px; flex-shrink: 0; }
